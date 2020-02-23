@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="wwwroot\js\%2540microsoft\**" />
+    <Content Remove="wwwroot\js\%2540microsoft\**" />
+    <EmbeddedResource Remove="wwwroot\js\%2540microsoft\**" />
+    <None Remove="wwwroot\js\%2540microsoft\**" />
+  </ItemGroup>
+
+
+
+</Project>
